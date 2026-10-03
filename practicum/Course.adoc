@@ -611,6 +611,7 @@ commit] - сохранение изменений в локальной базе
 https://www.atlassian.com/git/tutorials/syncing/git-pull#:~:text=in%20common%20scenarios%3A-,Default%20Behavior,-git%C2%A0pull[Загружает
 изменения] из удаленного репозитория и сразу же выполняет git merge с
 вашим локальным репозиторием.
+
 . https://www.atlassian.com/git/tutorials/using-branches[git branch] -
 для работы с ветками (добавить, удалить, узнать список имеющихся веток)
 . https://www.atlassian.com/git/tutorials/using-branches/git-checkout[git
