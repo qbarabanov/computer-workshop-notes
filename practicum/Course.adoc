@@ -1179,7 +1179,7 @@ inline).
 
 === Неопределенное поведение (Undefined Behavior) и оптимизации
 
-*Неопределенное поведение (UB)* — это ситуации в коде, для которых
+*https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5[Неопределенное поведение (UB)]* — это ситуации в коде, для которых
 стандарт языка не определяет правила выполнения.
 
 С точки зрения современных оптимизирующих компиляторов (GCC, Clang), главное
@@ -1210,7 +1210,7 @@ inline).
 * http://blog.llvm.org/2011/05/what-every-c-programmer-should-know_21.html[Part 3: Is the compiler out to get you?]
 
 TIP: Для поиска подобных ошибок на этапе отладки используются санитайзеры. В частности,
-флаг `-fsanitize=undefined` (UBSan) позволяет компилятору вставить в код проверки, 
+флаг `-fsanitize=undefined` (https://maskray.me/blog/all-about-undefined-behavior-sanitizer[UBSan]) позволяет компилятору вставить в код проверки, 
 которые остановят программу при возникновении UB.
 
 === Генерация кода
